@@ -17,8 +17,6 @@ describe('controllers', function() {
     $controller = _$controller_;
   }));
 
-
-
   describe('Testing MyCtrl1 and MyCtrl2', function() {
     it('should MyCtrl1 be defined', inject(function($controller) {
       //spec body
