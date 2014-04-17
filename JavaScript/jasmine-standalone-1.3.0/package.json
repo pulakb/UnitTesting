@@ -1,0 +1,13 @@
+{
+  "name": "javascript-unit-testing",
+  "description": "How to unit test your JavaScript codes",
+  "version": "0.0.1",
+  "dependencies": {
+    "grunt": "~0.4.2"
+  },
+  "devDependencies": {
+    "grunt-cli": "~0.1.13",
+    "karma": "~0.10",
+    "grunt-karma": "~0.8.2"
+  }
+}
