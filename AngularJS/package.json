@@ -3,8 +3,7 @@
   "private": true,
   "version": "0.0.0",
   "description": "How to do unit testing in AngularJS",
-  "repository": "https://github.com/angular/angular-seed",
-  "license": "MIT",
+  "repository": "https://github.com/pulakb/UnitTesting/tree/master/AngularJS",
   "devDependencies": {
     "karma": "~0.10",
     "protractor": "~0.17.0",
