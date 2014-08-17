@@ -12,7 +12,7 @@ describe('Test Menu', function () {
 		expect(menuObj.methodCalled).toEqual('enter');
 	});
 
-	it('should call show with \'Menu shown\'', function () {
+	it('should call show with \'Menu shown\' when create method is called', function () {
 		spyOn(menuObj, 'show');
 		menuObj.create();
 		expect(menuObj.show).toHaveBeenCalled();
@@ -21,6 +21,6 @@ describe('Test Menu', function () {
 
 	it('should set isDisplayed true', function () {		
 		menuObj.show();
-		expect(menuObj.isDisplayed).toBeTruthy();
+		expect(menuObj.isDisplayed).toBe(true);
 	});
 });
